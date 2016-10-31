@@ -1,0 +1,76 @@
+[color]
+    ui = true
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+    upstream = red
+    
+[color "log"]
+    upstream = red
+
+[push]
+    default = current
+
+[alias]
+    a = add
+    aa = add --all
+
+    b = branch -vv
+    ba = branch -a -vv
+    bd = branch -d
+    bs = !git-branch-status
+    bsi = !git-branch-status -i
+
+    c = commit
+    cm = commit -m
+    cam = commit --all -m
+
+    co = checkout
+    cob = checkout -b
+    com = checkout master
+    cod = checkout develop
+
+    d = diff
+    # d = diff --ignore-space-at-eol -b -w --ignore-blank-lines
+    dc = diff --cached
+    ds = diff --shortstat
+    dss = diff --stat
+    dsp = diff --stat -p
+    # files changed between commits
+    dn = diff --name-only
+
+    f = !git fetch && git lg
+    ff = !git f && echo && git ln --oneline HEAD..origin/HEAD
+    # file history (log)
+    fh = log -p
+
+    h = help    
+
+    l = log --decorate
+    ls = log --stat --decorate
+    ln = log --name-status
+    lsp = log --stat -p --decorate
+    # use 'git lg -10' to limit output
+    lg  = log --graph '--pretty=tformat:%h %Cgreen%ar (%an)%Creset %Cred%d%Creset %s'
+    lga = log --graph '--pretty=tformat:%h %Cgreen%ar (%an)%Creset %Cred%d%Creset %s' --all
+    # for complicated branches
+    lsd  = log --graph '--pretty=tformat:%h %Cgreen%ar (%an)%Creset %Cred%d%Creset %s' --simplify-by-decoration
+    lsda = log --graph '--pretty=tformat:%h %Cgreen%ar (%an)%Creset %Cred%d%Creset %s' --all --simplify-by-decoration
+    ls-del = ls-files -d
+    ls-mod = ls-files -m # including remote files
+    ls-new = ls-files --exclude-standard -o
+    ls-ign = ls-files --exclude-standard -o -i
+
+    ru = remote update
+    
+    sb = show-branch --sha1-name
+    s = status --short
+    ss = status
+    # "git s ." or "git ss ." will show only relative status
+    st = stash
+    stl = stash list
+    stp = stash pop
+
+    stats = shortlog --summary --numbered --no-merges

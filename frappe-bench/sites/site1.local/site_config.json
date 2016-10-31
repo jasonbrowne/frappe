@@ -1,0 +1,15 @@
+{
+ "db_name": "1bd3e0294d", 
+ "db_password": "YUf1yEkldjLqEOY0", 
+ "developer_mode": 1, 
+ "encryption_key": "6bLp5YBMWy1il9l4IDEyECsbyy3ZpSkPQIyYoQ4sHWY=", 
+ "limits": {
+  "space_usage": {
+   "backup_size": 1.0, 
+   "database_size": 18.71, 
+   "files_size": 18.0, 
+   "total": 37.71
+  }
+ }, 
+ "nginx_port": 80
+}

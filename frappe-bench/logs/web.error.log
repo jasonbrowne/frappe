@@ -1,0 +1,39 @@
+[2016-10-28 12:17:24 +0000] [10291] [INFO] Starting gunicorn 19.6.0
+[2016-10-28 12:17:24 +0000] [10291] [INFO] Listening at: http://127.0.0.1:8000 (10291)
+[2016-10-28 12:17:24 +0000] [10291] [INFO] Using worker: sync
+[2016-10-28 12:17:24 +0000] [10345] [INFO] Booting worker with pid: 10345
+[2016-10-28 12:37:11 +0000] [10291] [INFO] Handling signal: term
+[2016-10-28 12:37:11 +0000] [10345] [INFO] Worker exiting (pid: 10345)
+[2016-10-28 12:37:12 +0000] [10291] [INFO] Shutting down: Master
+[2016-10-28 12:37:16 +0000] [12079] [INFO] Starting gunicorn 19.6.0
+[2016-10-28 12:37:16 +0000] [12079] [INFO] Listening at: http://127.0.0.1:8000 (12079)
+[2016-10-28 12:37:16 +0000] [12079] [INFO] Using worker: sync
+[2016-10-28 12:37:16 +0000] [12132] [INFO] Booting worker with pid: 12132
+[2016-10-28 13:19:48 +0000] [12079] [INFO] Handling signal: term
+[2016-10-28 13:19:48 +0000] [12132] [INFO] Worker exiting (pid: 12132)
+[2016-10-28 13:19:48 +0000] [12079] [INFO] Shutting down: Master
+[2016-10-28 13:20:10 +0000] [1401] [INFO] Starting gunicorn 19.6.0
+[2016-10-28 13:20:10 +0000] [1401] [INFO] Listening at: http://127.0.0.1:8000 (1401)
+[2016-10-28 13:20:10 +0000] [1401] [INFO] Using worker: sync
+[2016-10-28 13:20:10 +0000] [1764] [INFO] Booting worker with pid: 1764
+[2016-10-28 13:30:25 +0000] [1401] [INFO] Handling signal: term
+[2016-10-28 13:30:25 +0000] [1764] [INFO] Worker exiting (pid: 1764)
+[2016-10-28 13:30:25 +0000] [1401] [INFO] Shutting down: Master
+[2016-10-28 13:30:29 +0000] [2195] [INFO] Starting gunicorn 19.6.0
+[2016-10-28 13:30:29 +0000] [2195] [INFO] Listening at: http://127.0.0.1:8000 (2195)
+[2016-10-28 13:30:29 +0000] [2195] [INFO] Using worker: sync
+[2016-10-28 13:30:29 +0000] [2215] [INFO] Booting worker with pid: 2215
+[2016-10-28 16:11:09 +0000] [2195] [INFO] Handling signal: term
+[2016-10-28 16:11:09 +0000] [2215] [INFO] Worker exiting (pid: 2215)
+[2016-10-28 16:11:09 +0000] [2195] [INFO] Shutting down: Master
+[2016-10-28 16:11:14 +0000] [7914] [INFO] Starting gunicorn 19.6.0
+[2016-10-28 16:11:14 +0000] [7914] [INFO] Listening at: http://127.0.0.1:8000 (7914)
+[2016-10-28 16:11:14 +0000] [7914] [INFO] Using worker: sync
+[2016-10-28 16:11:14 +0000] [7935] [INFO] Booting worker with pid: 7935
+[2016-10-28 16:12:05 +0000] [7914] [INFO] Handling signal: term
+[2016-10-28 16:12:05 +0000] [7935] [INFO] Worker exiting (pid: 7935)
+[2016-10-28 16:12:06 +0000] [7914] [INFO] Shutting down: Master
+[2016-10-28 16:12:10 +0000] [8038] [INFO] Starting gunicorn 19.6.0
+[2016-10-28 16:12:10 +0000] [8038] [INFO] Listening at: http://127.0.0.1:8000 (8038)
+[2016-10-28 16:12:10 +0000] [8038] [INFO] Using worker: sync
+[2016-10-28 16:12:10 +0000] [8058] [INFO] Booting worker with pid: 8058

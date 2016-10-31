@@ -1,0 +1,81 @@
+10295:M 28 Oct 12:17:21.446 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+10295:M 28 Oct 12:17:21.459 # Redis can't set maximum open files to 10032 because of OS error: Operation not permitted.
+10295:M 28 Oct 12:17:21.459 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 12000
+ |    `-._   `._    /     _.-'    |     PID: 10295
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+10295:M 28 Oct 12:17:21.461 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+10295:M 28 Oct 12:17:21.461 # Server started, Redis version 3.0.6
+10295:M 28 Oct 12:17:21.462 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+10295:M 28 Oct 12:17:21.462 * The server is now ready to accept connections on port 12000
+10295:signal-handler (1477658231) Received SIGTERM scheduling shutdown...
+10295:M 28 Oct 12:37:11.951 # User requested shutdown...
+10295:M 28 Oct 12:37:11.951 # Redis is now ready to exit, bye bye...
+12083:M 28 Oct 12:37:13.368 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+12083:M 28 Oct 12:37:13.368 # Redis can't set maximum open files to 10032 because of OS error: Operation not permitted.
+12083:M 28 Oct 12:37:13.368 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 12000
+ |    `-._   `._    /     _.-'    |     PID: 12083
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+12083:M 28 Oct 12:37:13.369 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+12083:M 28 Oct 12:37:13.369 # Server started, Redis version 3.0.6
+12083:M 28 Oct 12:37:13.369 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+12083:M 28 Oct 12:37:13.370 * The server is now ready to accept connections on port 12000
+12083:signal-handler (1477660788) Received SIGTERM scheduling shutdown...
+12083:M 28 Oct 13:19:48.702 # User requested shutdown...
+12083:M 28 Oct 13:19:48.702 # Redis is now ready to exit, bye bye...
+1405:M 28 Oct 13:20:03.290 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+1405:M 28 Oct 13:20:03.291 # Redis can't set maximum open files to 10032 because of OS error: Operation not permitted.
+1405:M 28 Oct 13:20:03.291 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 12000
+ |    `-._   `._    /     _.-'    |     PID: 1405
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1405:M 28 Oct 13:20:03.314 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1405:M 28 Oct 13:20:03.314 # Server started, Redis version 3.0.6
+1405:M 28 Oct 13:20:03.314 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1405:M 28 Oct 13:20:03.314 * The server is now ready to accept connections on port 12000

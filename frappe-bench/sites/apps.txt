@@ -1,0 +1,4 @@
+frappe
+erpnext
+product_configurator
+paypal_integration
